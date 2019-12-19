@@ -21,5 +21,5 @@ function greet(str_time) {
 }
 /* Write your implementation of displayMessage() */
 function displayMessage(test_str) {
-  let greeting_node = document.getElementById("greeting");
+  document.getElementById("greeting").innerText = test_str
 }
