@@ -20,6 +20,6 @@ function greet(str_time) {
   }
 }
 /* Write your implementation of displayMessage() */
-function displayMessage(str) {
-  document.getElementById("greeting").textContent = str;
+function displayMessage(test_str) {
+  document.getElementById("greeting").innerText = test_str
 }
