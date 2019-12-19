@@ -22,6 +22,4 @@ function greet(str_time) {
 /* Write your implementation of displayMessage() */
 function displayMessage(test_str) {
   let greeting_node = document.getElementById("greeting");
-  console.log(greeting_node.innerText);
-  greeting_node.textContent = test_str;
 }
